@@ -27,102 +27,69 @@
   </head>
   <body class="overflow_hidden">
     <section class="bg_black">
-      <div class="bg_hero">
-        <!-- hero section  -->
-        <div class="position_fixed top-0 w-100">
-          <!-- nav bar  -->
-          <nav class="bg_nav">
-            <div class="mycontainer">
-              <div
-                class="d-flex justify-content-between align-items-center py-4"
-              >
-                <p
-                  class="ff_raleway fw_700 fs_xl mb-0 position-relative z_1111111"
-                >
-                  <a href="#" class="color_graywhite"
-                    >Bit<span class="color_skyblue">Blue</span></a
-                  >
-                </p>
-                <input type="checkbox" id="check" class="d-none" />
-                <label for="check" class="d-block d-md-none">
-                  <div 
-                    class="d-flex flex-column h_20 justify-content-between position-relative z_1111111"
-                  >
-                    <span class="menuitem"></span>
-                    <span class="menuitem"></span>
-                    <span class="menuitem"></span>
-                  </div>
-                </label>
-                <ul
-                  class="d-flex align-items-center position_fixed_md center left_0 mb-0"
-                >
-                  <li
-                    class="ff_ralewaay fs_sm fw_400 opacity_69 mb-0 pe-md-4 pe-0"
-                  >
-                    <a href="#" class="color_graywhite">Litepaper</a>
-                  </li>
-                  <li
-                    class="ff_ralewaay fs_sm fw_400 opacity_69 mb-0 ps-md-2 ps-0 pe-md-4 pe-0"
-                  >
-                    <a href="#" class="color_graywhite">Case studies</a>
-                  </li>
-                  <li
-                    class="ff_ralewaay fs_sm fw_400 opacity_69 mb-0 ps-md-2 ps-0 pe-0 pe-md-4"
-                  >
-                    <a href="#" class="color_graywhite">About us</a>
-                  </li>
-                  <li
-                    class="ff_raleway fw_700 fs_sm p_button_wallet hover_button bg_skyblue br_100 ml_36 ml_md_0 pointer lh_normal mt-md-0 mt-4"
-                  >
-                    <a href="#" class="color_graywhite">Connect Wallet</a>
-                  </li>
+      <header class="bg-black min-vh-100 position-relative overflow-x-hidden pb-5">
+        <img class="w-100 position-absolute w-100 starLine_bg" src="./assets/images/png/her0Bg_lineStar.png" alt="img">
+        <nav class="bg_nav">
+            <div class="container d-flex justify-content-between align-items-center py-4">
+                <h2 class="ff_raleway fs_xl fw_700 color_graywhite">Bit<span class="color_skyblue">Blue</span></h2>
+                <ul id="showul"
+                    class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column align-items-center ps-0 mb-0 gap_32 navlist">
+                    <li class="ff_raleway fw_400 fs_sm  opacity_69">
+                        <a onclick="shownav()" href="#" class="color_graywhite">Litepaper</a>
+                    </li>
+                    <li class="ff_raleway fw_400 fs_sm  opacity_69">
+                        <a onclick="shownav()" href="#" class="color_graywhite">Case studies</a>
+                    </li>
+                    <li class="ff_raleway fw_400 fs_sm  opacity_69"><a onclick="shownav()" href="#" class="color_graywhite">About us</a></li>
+                    <li class="ps-md-4">
+                        <button onclick=" menu()" class="p_button_wallet ff_raleway bg_skyblue color_graywhite border-0 br_100 fw_700 fs_16 mb-0 hover_button">Connect
+                            Wallet</button>
+                    </li>
                 </ul>
-              </div>
+                <span class="menuIcon z_50 d-lg-none" id="shownav" onclick="shownav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
             </div>
-          </nav>
-        </div>
-        <!-- nav bar ends  -->
-
-        <div class="d-flex justify-content-center align-items-center pt-5">
-          <div class="mw_792 pt-5">
-            <h2
-              class="ff_raleway fw_700 text-center color_graywhite fs_4xl pb-2 lh_normal mb-0"
-            >
-              Crypto connectors for
-              <span class="color_skyblue fw_400 fs_italic">IOT</span> and
-              <span class="color_skyblue">MachineFi</span>
-            </h2>
-            <p
-              class="ff_raleway fw_400 fs_16 mb-0 text-center color_graywhite pt-2"
-            >
-              Enabling IOT Machine-to-machine micro-transactions on the
-              blockchain
-            </p>
-          </div>
-        </div>
-        <div class="bg_iphone">
-          <div class="mycontainer">
-            <div class="d-flex align-items-center py-5">
-              <div class="">
-                <img
-                  src="./assets/images/png/iphone_hero.png"
-                  alt="iphone image"
-                  class="w-100"
-                />
-              </div>
-              <div>
-                <div class="lightning_box ml_58">
-                  <p
-                    class="ff_raleway fw_700 fs_lg color_graywhite mb-0 text-center"
-                  >
-                    Built on the lightning network
-                  </p>
+        </nav>
+        <section class="pt-4 pb-5">
+            <div class="container pt-5 ">
+                <div class="d-flex justify-content-center ">
+                 <div class="mw_792">
+                   <h1 class="text-center ff_raleway fs_4xl fw_700 color_graywhite">Crypto connectors
+                    for <i class="fw_400 fs_italic color_skyblue">IOT</i> and <span class="color_skyblue">MachineFi</span></h1>
+                   <h2 class="text-center ff_raleway">Enabling IOT Machine-to-machine micro-transactions
+                    on the blockchain</h2>
+                 </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="position-relative">
+                <div class="container position-relative z-3">
+                    <div class="row align-items-center pt-5 position-relative shadow_bg justify-content-center" >
+                        <div class="col-md-3 col-5 position-relative z-3">
+                            <img class="w-100" src="./assets/images/png/mobile_hero.png" alt="phone">
+                        </div>
+                        <div class="col-md-6 col-12 position-relative z-2">
+                            <div class="position-relative">
+                                <img class="w-100 pe-4 HEROLINES" src="./assets/images/png/HEROLINES.svg" alt="lines">
+                                <div class="position-absolute top-50 start-0 light_network_box mx-md-4 translate-middle_y">
+                                    <h4 class="ff_raleway clr_whiteFB fs_24 fw-bold text-center">Built on the lightning
+                                        network</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-4 position-relative z-3 hero_logos">
+                            <img class="w-100" src="./assets/images/png/hero_logos.png" alt="logos">
+                        </div>
+                    </div>
+                </div>
+                <img class="w-100 position-absolute top-0 start-0 z-0 py-5 px-4 d-md-block d-none" src="./assets/images/png/IoT Devices.png" alt="img">
+            </div>
+        </section>
+    </header>
+
+  
       <!-- our app section starts -->
       <div class="position-relative">
         <div class="container py-xl-5 pb-5">
