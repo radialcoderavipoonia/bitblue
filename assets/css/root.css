@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+.ff_raleway{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden;
+}
+.mycontainer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+:root{
+    /* font size  */
+    --fs-xsm:14px;
+    --fs-sm:16px;
+    --fs-md:20px;
+    --fs-lg:24px;
+    --fs-xl:32px;
+    --fs-2xl:40px;
+    --fs-3xl:48px;
+    --fs-4xl:54px;
+    /* colors  */
+    --color-skyblue:#33A7F9;
+    --color-graywhite:#FBFBFB;
+    --bg-black:#000;
+}
+/* colors  */
+.color_skyblue{
+    color: var(--color-skyblue);
+}
+.color_graywhite{
+    color: var(--color-graywhite);
+}
+/* background  */
+.bg_black{
+    background-color: var(--bg-black);
+}
+.bg_skyblue{
+    background-color: var(--color-skyblue);
+}
+/* font size  */
+.fs_xsm{
+    font-size: var(--fs-xsm);
+}
+.fs_sm{
+    font-size: var(--fs-sm);
+}
+.fs_md{
+    font-size: var(--fs-md);
+}
+.fs_lg{
+    font-size: var(--fs-lg);
+}
+.fs_xl{
+    font-size: var(--fs-xl);
+}
+.fs_2xl{
+    font-size: var(--fs-2xl);
+}
+.fs_3xl{
+    font-size: var(--fs-3xl);
+}
+.fs_4xl{
+    font-size: var(--fs-4xl);
+}
+/* font weight  */
+.fw_300{
+    font-weight: 300;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
+.fw_800{
+    font-weight: 800;
+}
+.fw_900{
+    font-weight: 900;
+}
+/* media screen  */
+@media (max-width:992px) {
+    :root{
+    /* font size  */
+    --fs-xsm:14px;
+    --fs-sm:16px;
+    --fs-md:20px;
+    --fs-lg:20px;
+    --fs-xl:32px;
+    --fs-2xl:34px;
+    --fs-3xl:38px;
+    --fs-4xl:54px;
+}
+}
+@media (max-width:768px) {
+    :root{
+    /* font size  */
+    --fs-xsm:14px;
+    --fs-sm:16px;
+    --fs-md:20px;
+    --fs-lg:20px;
+    --fs-xl:32px;
+    --fs-2xl:34px;
+    --fs-3xl:38px;
+    --fs-4xl:54px;
+}
+}
+@media (max-width:576px) {
+    :root{
+    /* font size  */
+    --fs-xsm:14px;
+    --fs-sm:16px;
+    --fs-md:20px;
+    --fs-lg:22px;
+    --fs-xl:32px;
+    --fs-2xl:32px;
+    --fs-3xl:30px;
+    --fs-4xl:54px;
+}
+.accordion-item .accordion-button {
+  font-size: 18px !important;
+}
+}
