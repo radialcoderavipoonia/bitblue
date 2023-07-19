@@ -25,19 +25,21 @@
       type="image/x-icon"
     />
   </head>
-  <body class="overflow_hidden">
+  <body>
     <section class="bg_black">
-      <header class="bg-black min-vh-100 position-relative overflow-x-hidden pb-5">
+      <header class="bg-black min_100_vh position-relative overflow-x-hidden pb-xl-5">
         <img class="w-100 position-absolute w-100 starLine_bg" src="./assets/images/png/her0Bg_lineStar.png" alt="img">
         <nav class="bg_nav">
             <div class="container d-flex justify-content-between align-items-center py-4">
-                <h2 class="ff_raleway fs_xl fw_700 color_graywhite">Bit<span class="color_skyblue">Blue</span></h2>
+                <div class="position-relative z_1111111">
+                  <h2 class="ff_raleway fs_xl fw_700 color_graywhite">Bit<span class="color_skyblue">Blue</span></h2>
+                </div>
                 <ul id="showul"
                     class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column align-items-center ps-0 mb-0 gap_32 navlist">
                     <li class="ff_raleway fw_400 fs_sm  opacity_69">
                         <a onclick="shownav()" href="#" class="color_graywhite">Litepaper</a>
                     </li>
-                    <li class="ff_raleway fw_400 fs_sm  opacity_69">
+                    <li class="ff_raleway fw_400 fs_sm opacity_69">
                         <a onclick="shownav()" href="#" class="color_graywhite">Case studies</a>
                     </li>
                     <li class="ff_raleway fw_400 fs_sm  opacity_69"><a onclick="shownav()" href="#" class="color_graywhite">About us</a></li>
@@ -46,58 +48,62 @@
                             Wallet</button>
                     </li>
                 </ul>
-                <span class="menuIcon z_50 d-lg-none" id="shownav" onclick="shownav()">
+            
+               
+                   <span class="menuIcon z_50 d-lg-none" id="shownav" onclick="shownav()">
                     <span></span>
                     <span></span>
                     <span></span>
                 </span>
+               
+              
             </div>
         </nav>
-        <section class="pt-4 pb-5">
+        <div class="pt-4 pb-5" >
             <div class="container pt-5 ">
                 <div class="d-flex justify-content-center ">
                  <div class="mw_792">
                    <h1 class="text-center ff_raleway fs_4xl fw_700 color_graywhite">Crypto connectors
                     for <i class="fw_400 fs_italic color_skyblue">IOT</i> and <span class="color_skyblue">MachineFi</span></h1>
-                   <h2 class="text-center ff_raleway">Enabling IOT Machine-to-machine micro-transactions
+                   <h2 class="text-center ff_raleway fs_sm fw_400 color_graywhite opacity_08">Enabling IOT Machine-to-machine micro-transactions
                     on the blockchain</h2>
                  </div>
                 </div>
             </div>
             <div class="position-relative">
-                <div class="container position-relative z-3">
+                <div class="container position-relative ">
                     <div class="row align-items-center pt-5 position-relative shadow_bg justify-content-center" >
-                        <div class="col-md-3 col-5 position-relative z-3">
+                        <div class="col-md-3 col-5 position-relative ">
                             <img class="w-100" src="./assets/images/png/mobile_hero.png" alt="phone">
                         </div>
-                        <div class="col-md-6 col-12 position-relative z-2">
+                        <div class="col-md-6 col-12 position-relative ">
                             <div class="position-relative">
                                 <img class="w-100 pe-4 HEROLINES" src="./assets/images/png/HEROLINES.svg" alt="lines">
                                 <div class="position-absolute top-50 start-0 light_network_box mx-md-4 translate-middle_y">
-                                    <h4 class="ff_raleway clr_whiteFB fs_24 fw-bold text-center">Built on the lightning
+                                    <h4 class="ff_raleway fs_lg fw_700 color_graywhite text-center mb-0">Built on the lightning
                                         network</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 col-4 position-relative z-3 hero_logos">
+                        <div class="col-md-2 col-4 position-relative hero_logos">
                             <img class="w-100" src="./assets/images/png/hero_logos.png" alt="logos">
                         </div>
                     </div>
                 </div>
-                <img class="w-100 position-absolute top-0 start-0 z-0 py-5 px-4 d-md-block d-none" src="./assets/images/png/IoT Devices.png" alt="img">
+                <img class="w-100 position-absolute top-0 start-0 z-0 py-5 px-4 d-md-block d-none" src="./assets/images/png/IoT_Devices.png" alt="img">
             </div>
-        </section>
-    </header>
+          </div>
+      </header>
 
   
       <!-- our app section starts -->
       <div class="position-relative">
         <div class="container py-xl-5 pb-5">
         <div
-          class="d-flex justify-content-center align-items-center pt-5 pb-5 mt-5"
+          class="d-flex justify-content-center align-items-center "
         >
           <p
-            class="ff_raleway fw_600 fs_3xl color_graywhite pt-xl-5 pb-xl-5 mt-xl-4 mb-0"
+            class="ff_raleway fw_600 fs_3xl color_graywhite pt-md-5 pb-5 mt-md-4 mb-0"
           >
             Our <span class="fs_italic fw_400 color_skyblue">App</span> lets you
             do
@@ -137,7 +143,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 pt-md-0 pt-4">
-            <div class="our_app_box hover_black_box position-relative h-100">
+            <div class="our_app_box hover_black_box position-relative h-100" >
               <div class="text-center pb-3 pt_64">
                 <svg
                   width="66"
@@ -813,10 +819,10 @@
           <div class="shadow_big_circle"></div>
         </span>
       </div>
-  
-     
-      <!-- footer section starts  -->
-      <div class="footer_bg mt-xl-5">
+    </section>
+     <!-- footer section starts  -->
+     <div class="bg_black">
+       <div class="footer_bg ">
         <div class="mycontainer pt-xl-5">
           <div class="row pt-5 pb-5 justify-content-between align-items-center">
             <div class="col-xl-4 col-lg-4">
@@ -959,11 +965,20 @@
           </div>
         </div>
       </div>
-    </section>
+     </div>
+    <!-- nav bar js  -->
+     <script>
+        function shownav() {
+            document.getElementById("showul").classList.toggle("nav_left0")
+            document.getElementById("overflow").classList.toggle("overflow_hidden")
+        }
+
+    </script>
     <!-- aos  -->
-    <!-- <script>
+    <script>
   AOS.init();
-</script> -->
+</script>
+
     <!-- bootstrap js  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
