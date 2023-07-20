@@ -331,7 +331,10 @@
   background-color: transparent !important;
 }
 .accordion-button::after {
-  background-image: url(../images/png/arrow.png) !important;
+ background-image: url("../images/png/arrow.png");
+}
+.accordion-button:not(.collapsed)::after{
+   background-image: url("../images/png/arrow.png");
 }
 .accordion-button:not(.collapsed) {
   box-shadow: none !important;
@@ -380,6 +383,22 @@
   100% {
     transform: scale(1.1);
   }
+}
+/* before after  */
+.underline:before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  background-color: #FBFBFB;
+  opacity: 0.69;
+  transition: all 0.2s linear;
+}
+.underline:hover:before{
+width: 100%;
+left: 0;
 }
 /* hero section  */
 
