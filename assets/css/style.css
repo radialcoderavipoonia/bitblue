@@ -231,6 +231,12 @@
 .bottom_0 {
   bottom: 0;
 }
+.left_35{
+  left: 35%;
+}
+.top_66{
+  top: 66%;
+}
 .top_400 {
   top: 400px;
 }
@@ -428,6 +434,14 @@
 @media (min-width: 992px) and (max-width: 1920px) {
   .min_100_vh {
     min-height: 100vh;
+  }
+}
+@media (max-width:992px) {
+  .left_35{
+    left: 14% !important;
+  }
+  .top_66{
+    top: 80% !important;
   }
 }
 @media (max-width: 768px) {
