@@ -143,6 +143,9 @@
 .opacity_08 {
   opacity: 0.800000011920929;
 }
+.opacity_color {
+  color: #fbfbfb !important;
+}
 /* padding  */
 .p_button_wallet {
   padding: 18px 32px;
@@ -213,34 +216,34 @@
 .top_183 {
   top: 183px;
 }
-.left_-160{
+.left_-160 {
   left: -160px;
 }
-.top_-100{
+.top_-100 {
   top: -100px;
 }
-.right_-143{
+.right_-143 {
   right: -143px;
 }
-.right_-203{
+.right_-203 {
   right: -203px;
 }
-.bottom_0{
+.bottom_0 {
   bottom: 0;
 }
-.top_400{
+.top_400 {
   top: 400px;
 }
-.top_20{
+.top_20 {
   top: 20%;
 }
-.top_15{
+.top_15 {
   top: 15%;
 }
-.left_15{
+.left_15 {
   left: 15%;
 }
-.left_-137{
+.left_-137 {
   left: -137px;
 }
 .left_44 {
@@ -249,7 +252,7 @@
 .left_50 {
   left: 50px;
 }
-.right_35{
+.right_35 {
   right: 35%;
 }
 .top_30 {
@@ -348,12 +351,12 @@
 .hover_blockchain_button {
   transition: all 0.2s linear;
 }
-.hover_black_box:hover{
+.hover_black_box:hover {
   background-color: black !important;
   transform: scale(0.9);
   border: 2px solid white;
 }
-.hover_black_box{
+.hover_black_box {
   transition: all 0.3s linear;
 }
 /* z index  */
@@ -361,14 +364,14 @@
   z-index: 1111111;
 }
 /* animation  */
-.ani_circle{
-  animation: animatecircle 2s linear  infinite alternate;
+.ani_circle {
+  animation: animatecircle 2s linear infinite alternate;
 }
 @keyframes animatecircle {
-  0%{
-    transform: scale(0.5) ;
+  0% {
+    transform: scale(0.5);
   }
-  100%{
+  100% {
     transform: scale(1.1);
   }
 }
@@ -422,24 +425,23 @@
   transform: translateY(-50%);
 }
 /* media screen  */
-@media (min-width:992px) and (max-width:1920px)  {
-  .min_100_vh{
+@media (min-width: 992px) and (max-width: 1920px) {
+  .min_100_vh {
     min-height: 100vh;
   }
 }
 @media (max-width: 768px) {
-
   .ml_md_0 {
     margin-left: 0;
   }
-   .navlist {
+  .navlist {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: black !important;
-    z-index: 111111 !important;
+    z-index: 11 !important;
     transition: all 0.5s ease-in-out;
   }
   .overflow_hidden {
@@ -485,9 +487,9 @@
     padding-left: 0 !important;
   }
   .job_boxes {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media (min-width: 576px) {
   .light_network_box {

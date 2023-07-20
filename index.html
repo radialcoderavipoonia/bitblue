@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="overflow">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,12 +25,12 @@
       type="image/x-icon"
     />
   </head>
-  <body>
+  <body >
     <section class="bg_black">
       <header class="bg-black min_100_vh position-relative overflow-x-hidden pb-xl-5">
         <img class="w-100 position-absolute w-100 starLine_bg" src="./assets/images/png/her0Bg_lineStar.png" alt="img">
-        <nav class="bg_nav">
-            <div class="container d-flex justify-content-between align-items-center py-4">
+        <nav class="bg_nav position-relative z_1111111">
+              <div class="container d-flex justify-content-between align-items-center py-4">
                 <div class="position-relative z_1111111">
                   <h2 class="ff_raleway fs_xl fw_700 color_graywhite">Bit<span class="color_skyblue">Blue</span></h2>
                 </div>
@@ -48,16 +48,13 @@
                             Wallet</button>
                     </li>
                 </ul>
-            
                
                    <span class="menuIcon z_50 d-lg-none" id="shownav" onclick="shownav()">
                     <span></span>
                     <span></span>
                     <span></span>
                 </span>
-               
-              
-            </div>
+              </div>
         </nav>
         <div class="pt-4 pb-5" >
             <div class="container pt-5 ">
@@ -65,7 +62,7 @@
                  <div class="mw_792">
                    <h1 class="text-center ff_raleway fs_4xl fw_700 color_graywhite">Crypto connectors
                     for <i class="fw_400 fs_italic color_skyblue">IOT</i> and <span class="color_skyblue">MachineFi</span></h1>
-                   <h2 class="text-center ff_raleway fs_sm fw_400 color_graywhite opacity_08">Enabling IOT Machine-to-machine micro-transactions
+                   <h2 class="text-center ff_raleway fs_sm fw_400 opacity_color ">Enabling IOT Machine-to-machine micro-transactions
                     on the blockchain</h2>
                  </div>
                 </div>
@@ -73,7 +70,7 @@
             <div class="position-relative">
                 <div class="container position-relative ">
                     <div class="row align-items-center pt-5 position-relative shadow_bg justify-content-center" >
-                        <div class="col-md-3 col-5 position-relative ">
+                        <div class="col-md-3 col-5 position-relative z-1">
                             <img class="w-100" src="./assets/images/png/mobile_hero.png" alt="phone">
                         </div>
                         <div class="col-md-6 col-12 position-relative ">
@@ -970,7 +967,7 @@
      <script>
         function shownav() {
             document.getElementById("showul").classList.toggle("nav_left0")
-            document.getElementById("overflow").classList.toggle("overflow_hidden")
+            document.getElementById("overflow").classList.toggle("overflow-hidden")
         }
 
     </script>
